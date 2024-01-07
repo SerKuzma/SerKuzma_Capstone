@@ -87,5 +87,3 @@ elif choice_option.lower() == "bond":
 # If user type with mistakes, error message appears
 else:
     print("Error!!! Could you please check the spelling?")
-
-# I've improved the code with the knowledge I've got while later
