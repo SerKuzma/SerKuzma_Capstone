@@ -30,6 +30,8 @@ else:
         use formula
         print rate of interest
 """
+#import the math module
+import math
 
 # Asking user to input his choice from 'investment' or 'bond'
 print()
@@ -50,9 +52,6 @@ if choice_option.lower() == "investment":
     how_many_years = int(input("Declare how many years, please: "))
     simple_compound = str(input("Tell us a bit more. Is it 'simple' or 'compound' deposit? "))
     
-    #import the math module
-    import math
-
     # If user choose 'simple', calculate total amount by formula and print a result
     if simple_compound.lower() == "simple":
         total_amount = money_amount * (1 + (interest_rate_deposit / 100) * how_many_years)
@@ -75,9 +74,7 @@ elif choice_option.lower() == "bond":
     annual_interest_rate = float(input("Declare the rate of interest, please: "))
     how_many_month = int(input("Declare how many month, please: "))
 
-    #import the math module
-    import math
-
+  
     # Calculate total repayment by formula and print a result
     monthly_interest_rate = (annual_interest_rate / 100) / 12 # Converts to monthly rate 
     repayment = (monthly_interest_rate * house_value) / (1 - (1 + monthly_interest_rate) ** -how_many_month)
