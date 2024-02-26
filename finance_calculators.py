@@ -30,7 +30,10 @@ else:
         use formula
         print rate of interest
 """
-#import the math module
+
+# Error handling required 
+
+# import the math module
 import math
 
 # Asking user to input his choice from 'investment' or 'bond'
