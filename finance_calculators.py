@@ -1,37 +1,3 @@
-""" Pseudocode 
-
-Print options to choose one of 'Investment' or 'bond' by user
-
-ask user to input choosen, should read all ways of input otherwise show Error
-
-if investement:
-    # ask user for input
-    Amount of money deposit
-    The interest rate (%)
-    How many years
-    'Simple' or 'compound'
-
-    if simple:
-        use formula
-        print rate of interest
-    elif compound
-        use formula
-        print rate of interest
-    
-if bond:
-    #ask user for input
-    Value of house
-    interest rate
-    number of month
-    use formula
-    print how much money user have to repay each month
-
-else:
-        use formula
-        print rate of interest
-"""
-
-# Error handling required 
 
 # import the math module
 import math
