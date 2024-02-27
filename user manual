@@ -1,0 +1,50 @@
+User Manual: Investment and Bond Calculator
+
+Introduction:
+This program is designed to help you calculate the amount of interest you will earn on your investment or the amount you will have to repay on a home loan (bond). Follow the instructions below to perform the calculations.
+
+Getting Started:
+Run the program.
+You will be presented with two options: 'Investment' or 'Bond'.
+Choose the option that corresponds to what you want to calculate by typing either 'investment' or 'bond' and pressing Enter.
+
+Investment:
+If you choose 'Investment', you will be prompted to provide the following information:
+Amount of money you are depositing.
+The annual interest rate (in percentage).
+The number of years for the investment.
+Whether it's a 'simple' or 'compound' deposit.
+
+Bond:
+If you choose 'Bond', you will be prompted to provide the following information:
+The value of the house.
+The annual interest rate for the bond (in percentage).
+The number of months for the bond.
+
+Error Handling:
+If you mistype your choice ('investment' or 'bond'), the program will display an error message prompting you to check the spelling.
+If you mistype whether it's a 'simple' or 'compound' deposit, the program will display an error message prompting you to check the spelling.
+
+
+Example Usage:
+
+Choosing 'Investment':
+
+Choose 'investment'.
+Enter the amount of money you are depositing.
+Enter the annual interest rate.
+Enter the number of years.
+Specify whether it's a 'simple' or 'compound' deposit.
+The program will calculate the total amount after the specified number of years and display the result.
+
+Choosing 'Bond':
+
+Choose 'bond'.
+Enter the value of the house.
+Enter the annual interest rate for the bond.
+Enter the number of months for the bond.
+The program will calculate the monthly repayment amount and display the result.
+
+Additional Notes:
+The program rounds the calculated amounts to two decimal places for clarity.
+Ensure you enter numerical values for all input prompts.
